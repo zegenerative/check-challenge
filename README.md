@@ -14,4 +14,4 @@ Alternatively, you view and run the tests to verify the solution is correct by r
 npm test
 ```
 
-Your entrypoint is './src/calculateTotalWorkloadDuration.ts. This utility generates an output per given input as described in the brief.md.
+Your entrypoint is `./src/calculateTotalWorkloadDuration.ts`. This utility generates an output per given input as described in the `brief.md`.
