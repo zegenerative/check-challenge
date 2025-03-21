@@ -3,6 +3,7 @@
 To view the solution, run  
 
 ```bash
+npm install
 npm run build
 npm start
 ```
