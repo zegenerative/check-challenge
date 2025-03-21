@@ -2,8 +2,9 @@ import { workLoadInMinutes } from './consts';
 import { Workload } from "./types";
 
 /**
- * Calculates how much minutes it takes to complete workload per moped
+ * Calculates how much minutes it takes to complete workload per employee
  * @param workload a list of mopeds and distances between them
+ * @param employee either a swapper, fixer or mechanic
  * @returns total workload duration in minutes
  */
 export const calculateDuration = (workload: Workload, employee: string): number => {

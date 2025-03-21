@@ -5,6 +5,7 @@ import { Workload } from "./types"
 
 /**
  * Calculates how much minutes it takes to complete all tasks per moped
+ * @param workload list of mopeds and distances between them
  * @returns total distance duration in minutes
  */
 export const calculateTotalWorkloadDuration = (workload: Workload): number => {

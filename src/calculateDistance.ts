@@ -4,7 +4,7 @@ import { Workload } from "./types";
  * Calculates the farthest an employee has to travel
  * @param workload a list of mopeds and distances between them
  * @param employee either a swapper, fixer or mechanic
- * @returns 
+ * @returns total workload distance in minutes
  */
 export const calculateDistance = (workload: Workload, employee: string): number => {
     const reversedArray: string[] = workload.mopeds.slice().reverse()
