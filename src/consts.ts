@@ -1,6 +1,9 @@
 import { Workload } from "./types"
 
-export const employees = {
+type Employee = "S" | "F" | "M"
+export type Employees = Record<string, Employee>
+
+export const employees: Employees = {
     swapper: "S",
     fixer: "F",
     mechanic: "M"

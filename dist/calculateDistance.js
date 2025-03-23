@@ -5,7 +5,7 @@ exports.calculateDistance = void 0;
  * Calculates the farthest an employee has to travel
  * @param workload a list of mopeds and distances between them
  * @param employee either a swapper, fixer or mechanic
- * @returns
+ * @returns total workload distance in minutes
  */
 const calculateDistance = (workload, employee) => {
     const reversedArray = workload.mopeds.slice().reverse();

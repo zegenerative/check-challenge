@@ -1,7 +1,7 @@
 import { calculateTotalWorkloadDuration } from "./calculateTotalWorkloadDuration"
-import { workloads } from "./consts"
+import { employees, workloads } from "./consts"
 
 console.log(
-calculateTotalWorkloadDuration(workloads[0]),
-calculateTotalWorkloadDuration(workloads[1]),
-calculateTotalWorkloadDuration(workloads[2]))
+calculateTotalWorkloadDuration(workloads[0], employees),
+calculateTotalWorkloadDuration(workloads[1], employees),
+calculateTotalWorkloadDuration(workloads[2], employees))

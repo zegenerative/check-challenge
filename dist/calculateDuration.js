@@ -3,8 +3,9 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.calculateDuration = void 0;
 const consts_1 = require("./consts");
 /**
- * Calculates how much minutes it takes to complete workload per moped
+ * Calculates how much minutes it takes to complete workload per employee
  * @param workload a list of mopeds and distances between them
+ * @param employee either a swapper, fixer or mechanic
  * @returns total workload duration in minutes
  */
 const calculateDuration = (workload, employee) => {
