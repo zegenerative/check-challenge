@@ -1,7 +1,6 @@
 import { calculateDistance } from "./calculateDistance";
 import { calculateDuration } from "./calculateDuration";
-import { Employees } from './consts';
-import { Workload } from "./types";
+import { Employees, Workload } from "./types";
 
 /**
  * Calculates how much minutes it takes to complete all tasks per moped

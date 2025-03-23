@@ -1,7 +1,4 @@
-import { Workload } from "./types"
-
-type Employee = "S" | "F" | "M"
-export type Employees = Record<string, Employee>
+import { Employees, Workload } from "./types"
 
 export const employees: Employees = {
     swapper: "S",
